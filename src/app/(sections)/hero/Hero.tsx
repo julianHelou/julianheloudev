@@ -13,16 +13,16 @@ const Hero = () => {
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
           {' '}
-          <span className="bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
+          <span className="bg-[linear-gradient(90deg,#FF8A00,#FF0033)] bg-clip-text text-transparent">
             Julian Helou
           </span>
         </h1>
-        <p className="text-lg sm:text-xl lg:text-2xl mb-8 text-gray-300 max-w-2xl mx-auto">
-          Full Stack Developer specializing in crafting innovative digital solutions with modern technologies.
-        </p>
+        <h1 className="text-lg sm:text-xl lg:text-2xl mb-8 max-w-2xl mx-auto text-white">
+          Developer in Development.
+        </h1>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button variant="primary" size="large" href="https://me.julianhelou.dev">
-            Learn More
+            <span className="bg-[linear-gradient(90deg,#FF8A00,#FF0033)] bg-clip-text text-transparent">Access</span>
           </Button>
         </div>
       </div>
